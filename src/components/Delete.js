@@ -4,7 +4,7 @@ import "./Delete.css"
 
 const Delete = () => {
     return <div>
-        <button><img src= {DeleteI} className="delete" /></button>
+        <button className="dltbtn"><img src= {DeleteI} className="delete" /></button>
     </div>
 
 }

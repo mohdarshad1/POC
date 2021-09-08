@@ -4,7 +4,7 @@ import "./TCMIcon.css"
 
 const TCMicon = () => {
     return <div>
-        <button><img src={TCMI} className="tcm" /></button>
+        <button className="tcmbtn"><img src={TCMI} className="tcm" /></button>
     </div>
 
 }

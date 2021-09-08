@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Editor } from '@tinymce/tinymce-react';
+import "./TinyMCE.css"
 
 const TinyMce = () => {
     const editorRef = useRef(null);
@@ -8,7 +9,7 @@ const TinyMce = () => {
        console.log(editorRef.current.getContent());
      }
    };
-    return <div>
+    return <div className="mcebox">
        <Editor
          onInit={(evt, editor) => editorRef.current = editor}
          initialValue=""
